@@ -9,9 +9,9 @@ With a Lean Six Sigma Black Belt, I excel in leading projects that enhance commu
 
 ## 🛠 Technical Toolkit:
 
-Data Analysis & Visualization: Python, Power BI, Tableau, Microsoft Excel, Google Sheets, Pandas, NumPy
-Development Tools: Visual Studio Code, PostgresSQL, Git, DAX, Power Query
-CRM & ERP Systems: HubSpot, Oracle NetSuite
+Data Analysis & Visualization: Python, Power BI, Tableau, Microsoft Excel, Google Sheets, Pandas, NumPy \
+Development Tools: Visual Studio Code, PostgresSQL, Git, DAX, Power Query \
+CRM & ERP Systems: HubSpot, Oracle NetSuite \
 Project Management: Lean Six Sigma methodologies, Agile and Scrum frameworks
 
 
