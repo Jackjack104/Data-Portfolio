@@ -1,4 +1,4 @@
-Cohort Retention Analysis - 2024
+# __Cohort Retention Analysis - 2024__
 
 ## Executive Summary
 
