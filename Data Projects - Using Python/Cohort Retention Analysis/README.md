@@ -1,7 +1,6 @@
 # __Cohort Retention Analysis - 2024__
 
 ## Executive Summary
-
 Cohort Analysis is a method of behavioral analytics that groups users, customers, or subjects into cohorts based on shared characteristics over a specific time period. This approach helps organizations track these cohorts and compare how they behave over time, rather than looking at all users as a single unit. For this analysis we will be using the customer's first sale month as the cohort characteristic. 
 
 ## Goal Statement
