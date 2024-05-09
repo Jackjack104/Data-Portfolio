@@ -3,7 +3,7 @@
 
 
 
-👋 Welcome to my profile! I am a seasoned data analyst with a passion for transforming complex data into clear, actionable insights that drive organizational success. My expertise spans analytics, data visualization, and storytelling, equipping me to effectively communicate impactful messages to both technical and non-technical stakeholders.
+👋 Welcome to my profile! I am a seasoned data analyst with a passion for transforming complex data into clear, actionable insights that drive organizational success. My expertise spans analytics, data visualization, and data storytelling, equipping me to effectively communicate impactful messages to both technical and non-technical stakeholders.
 
 With a Lean Six Sigma Black Belt, I excel in leading projects that enhance communication and teamwork, fostering a culture of continuous improvement and strategic decision-making across diverse teams. My approach integrates rigorous analytical methods with a pragmatic understanding of business needs, ensuring that data-driven strategies align with organizational goals.
 
