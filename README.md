@@ -26,7 +26,7 @@ Power BI Projects: - Check out my Power BI dashboard examples showcasing how I v
 [Power BI Projects](https://github.com/Jackjack104/Data-Portfolio/tree/main/Data%20Projects%20-%20Using%20Power%20BI)
 
 Feel free to connect with me or reach out if you're interested in discussing potential or opportunities. 
-My [resume](https://github.com/Jackjack104/Data-Portfolio/blob/main/Jack%20Cournoyer%20Resume%20-%202024.pdf) can be found here.
+My [resume](https://github.com/Jackjack104/Data-Portfolio/blob/1df8cf6ecff58a9a85fa1b22fecb8ced21539c15/Jack%20Cournoyer%20Resume)  can be found here.
 
 
 Let's harness the power of data together!
