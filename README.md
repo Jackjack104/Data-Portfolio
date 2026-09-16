@@ -2,6 +2,8 @@
 
 **Senior Data Analyst | Sales Analytics | CRM Data Architecture | Business Intelligence | AI-Enabled Workflows**
 
+[View Resume](./Jack-Cournoyer-Resume.pdf) | [Download PDF](https://raw.githubusercontent.com/Jackjack104/Data-Portfolio/main/Jack-Cournoyer-Resume.pdf)
+
 I build reliable data systems and reporting that help sales teams make better decisions. My work covers the full analytics lifecycle: cleaning and linking data, defining business logic, developing analytical models, automating recurring processes, and translating results into clear recommendations.
 
 I specialize in sales and revenue analytics, customer retention, CRM data quality, Power BI development, and operational process improvement. I am most effective when the problem requires both technical depth and an understanding of how data is created, maintained, and used by the business.
@@ -62,5 +64,3 @@ I pair AI with validation, version control, clear metric definitions, and busine
 ## About this repository
 
 This portfolio contains Python and Power BI projects focused on practical business questions. Portfolio datasets are synthetic, constructed, or non-proprietary. Each updated case study documents its methodology, findings, recommendations, technical implementation, and limitations.
-
-[View my resume](./Jack%20Cournoyer%20Resume)
