@@ -47,6 +47,7 @@ I pair AI with validation, version control, clear metric definitions, and busine
 
 | Project | Business focus | Skills demonstrated |
 |---|---|---|
+| [Sales & CRM Analytics Pipeline](./Data%20Engineering%20Projects/Sales%20CRM%20Analytics%20Pipeline/) | Combines synthetic CRM and ERP data into tested customer and sales reporting tables | Python, PostgreSQL, dbt, Docker, data quality, dimensional modeling |
 | [Customer Retention & Cohort Analysis](./Data%20Projects%20-%20Using%20Python/Cohort%20Retention%20Analysis/) | Measures customer activity after acquisition and identifies where retention declines most sharply | Python, pandas, cohort modeling, lifecycle analytics, data storytelling |
 | [Website Feature Launch Performance Analysis](./Data%20Projects%20-%20Using%20Python/Website%20Feature%20Launch%20Sales%20Impact%20Analysis%20-%202026/) | Evaluates revenue, customer activity, ARPC, and AOV before and after a simulated feature launch | Python, KPI validation, pre/post analysis, causal reasoning |
 | [Car Sales Performance Analysis](./Data%20Projects%20-%20Using%20Python/Car%20Sales%20Analysis%20-%202026/) | Separates sales-volume, pricing, regional, manufacturer, and model performance | Python, pandas, aggregation, trend analysis, visualization |

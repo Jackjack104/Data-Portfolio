@@ -1,0 +1,34 @@
+version: 2
+
+models:
+  - name: stg_crm_companies
+    description: Latest valid CRM company record for each source company ID.
+    columns:
+      - name: company_id
+        tests: [not_null, unique]
+      - name: normalized_company_name
+        tests: [not_null]
+
+  - name: stg_crm_contacts
+    description: Latest valid CRM contact record for each source contact ID.
+    columns:
+      - name: contact_id
+        tests: [not_null, unique]
+      - name: email
+        tests: [not_null, unique]
+
+  - name: stg_erp_customers
+    description: Latest valid ERP customer record for each source customer ID.
+    columns:
+      - name: customer_id
+        tests: [not_null, unique]
+
+  - name: stg_erp_orders
+    description: Latest valid ERP order record for each source order ID.
+    columns:
+      - name: order_id
+        tests: [not_null, unique]
+      - name: customer_id
+        tests: [not_null]
+      - name: order_amount
+        tests: [not_null]

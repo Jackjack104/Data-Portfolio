@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: raw
+    tables:
+      - name: crm_companies
+      - name: crm_contacts
+      - name: erp_customers
+      - name: erp_orders
+
+  - name: audit
+    schema: audit
+    tables:
+      - name: pipeline_runs
+      - name: rejected_records

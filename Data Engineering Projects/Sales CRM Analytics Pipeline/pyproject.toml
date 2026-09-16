@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sales-crm-analytics-pipeline"
+version = "1.0.0"
+description = "Synthetic CRM and ERP pipeline for a PostgreSQL analytics warehouse"
+requires-python = ">=3.11"
+dependencies = [
+    "dbt-postgres>=1.9,<2.0",
+    "psycopg[binary]>=3.2,<4.0",
+    "python-dotenv>=1.0,<2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3,<9.0",
+    "ruff>=0.9,<1.0",
+]
+
+[project.scripts]
+sales-crm-pipeline = "sales_crm_pipeline.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

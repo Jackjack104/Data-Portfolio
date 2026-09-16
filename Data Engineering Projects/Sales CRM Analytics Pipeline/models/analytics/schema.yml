@@ -1,0 +1,63 @@
+version: 2
+
+models:
+  - name: dim_customer
+    description: Conformed customer dimension that combines matched CRM and ERP identities.
+    columns:
+      - name: customer_key
+        tests: [not_null, unique]
+      - name: customer_name
+        tests: [not_null]
+      - name: match_method
+        tests: [not_null]
+
+  - name: dim_contact
+    description: CRM contact dimension with the resolved customer key when one is available.
+    columns:
+      - name: contact_key
+        tests: [not_null, unique]
+      - name: contact_id
+        tests: [not_null, unique]
+      - name: customer_key
+        tests:
+          - relationships:
+              arguments:
+                to: ref('dim_customer')
+                field: customer_key
+
+  - name: fact_orders
+    description: ERP order fact table linked to the conformed customer dimension.
+    columns:
+      - name: order_key
+        tests: [not_null, unique]
+      - name: order_id
+        tests: [not_null, unique]
+      - name: customer_key
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_customer')
+                field: customer_key
+      - name: order_amount
+        tests: [not_null]
+
+  - name: mart_customer_360
+    description: Customer-level reporting table with identity, activity, and revenue measures.
+    columns:
+      - name: customer_key
+        tests: [not_null, unique]
+
+  - name: mart_sales_performance
+    description: Monthly sales metrics by customer state, CRM owner, and product line.
+    columns:
+      - name: order_month
+        tests: [not_null]
+
+  - name: mart_data_quality_summary
+    description: Counts that make source quality, matching, and pipeline execution visible.
+    columns:
+      - name: quality_metric
+        tests: [not_null, unique]
+      - name: metric_value
+        tests: [not_null]
