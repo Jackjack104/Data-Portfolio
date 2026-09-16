@@ -1,4 +1,4 @@
-# Website Feature Sales Impact Analysis - Jack Cournoyer 2024
+# Website Feature Sales Impact Analysis - Jack Cournoyer 2026
 ## Overview
 ---
 In the fast-evolving digital marketplace, understanding how specific website features influence sales and customer behavior is crucial for businesses striving to optimize their online presence. The "Website Feature Sales Impact Analysis" leverages advanced Python programming to dissect the effects of a newly introduced website feature on sales performance. This analysis provides a deep dive into the feature's impact, employing a data-driven approach to scrutinize changes in key performance indicators (KPIs) associated with sales metrics.

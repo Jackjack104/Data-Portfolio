@@ -1,4 +1,4 @@
-# Car Sales Analysis Report - March 2024
+# Car Sales Analysis Report - March 2026
 ## Executive Summary
 In the current era, where leveraging data for strategic advantage defines business success, this car sales analysis epitomizes the effective use of advanced Python programming, alongside sophisticated data analysis and visualization techniques. Focused on the automotive sector, this project dissects car sales data to extract key insights on regional sales performance, weekly sales trends, and performance by manufacturer. It showcases not just the application of data analytics to unearth critical business insights but also highlights the adaptability of these skills across various industry challenges.
 
