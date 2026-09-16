@@ -37,6 +37,7 @@ I pair AI with validation, version control, clear metric definitions, and busine
 | Area | Tools and methods |
 |---|---|
 | Data analysis | Python, pandas, NumPy, PostgreSQL, Excel, Google Sheets |
+| Data engineering | PostgreSQL, dbt, Docker, ETL/ELT pipelines, dimensional modeling, data-quality testing |
 | Business intelligence | Power BI, DAX, Power Query, Tableau, semantic modeling |
 | CRM and business systems | HubSpot, Oracle NetSuite, APIs, data synchronization |
 | Development | Visual Studio Code, Git, Jupyter, reusable functions, automated validation |
