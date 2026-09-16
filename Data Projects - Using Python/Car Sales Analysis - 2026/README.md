@@ -1,29 +1,113 @@
-# Car Sales Analysis Report - March 2026
-## Executive Summary
-In the current era, where leveraging data for strategic advantage defines business success, this car sales analysis epitomizes the effective use of advanced Python programming, alongside sophisticated data analysis and visualization techniques. Focused on the automotive sector, this project dissects car sales data to extract key insights on regional sales performance, weekly sales trends, and performance by manufacturer. It showcases not just the application of data analytics to unearth critical business insights but also highlights the adaptability of these skills across various industry challenges.
+# Car Sales Performance Analysis
 
-Utilizing a rich dataset, this analysis leverages Python's robust libraries and data visualization tools, demonstrating how strategic data interpretation can significantly enhance inventory management, refine marketing strategies, and sharpen sales tactics. 
-## Goal Statement
-This analytical endeavor is meticulously designed to unravel the intricacies of car sales data across various dimensions. It is steered by the ambition to accomplish three core objectives:
+**Python | pandas | Matplotlib | Seaborn | Sales analytics**
 
-* Regional Sales Analysis: To ascertain which dealer region spearheads in sales revenue, thus shedding light on regional market dynamics and potential areas for market expansion.
-* Temporal Sales Patterns: To pinpoint the peak sales days across regions, offering a lens into consumer purchasing patterns that could inform targeted promotional campaigns.
+This project analyzes vehicle transactions to identify the regions, selling periods, manufacturers, and models contributing most to sales performance. It separates transaction volume from average selling price so high revenue is not automatically interpreted as stronger customer spending.
 
-Manufacturer & Model Performance: To identify leading manufacturers by sales volume, and further, to determine the top-performing models, thereby highlighting consumer preferences and guiding inventory selection.
-## Data Sources and Methodology: 
-* Leveraging a rich dataset encapsulating detailed car sales transactions, the project adopts a rigorous methodological framework encompassing statistical analysis and advanced data visualization techniques. Through a blend of quantitative metrics and qualitative insights, the analysis distills complex data into digestible and actionable information.
+## Business problem
 
-## Expected Outcomes
-Anticipated revelations from this analytical quest include:
-* A clear demarcation of the dealer region with the zenith of sales revenue, marking a territorial stronghold in the market.
-* Strategic insights into optimal sales days across regions, coupled with an understanding of manufacturer and model preferences, to steer promotional strategies and sales initiatives.
-* A nuanced understanding of consumer preferences at the manufacturer and model level, enriching inventory planning and marketing strategies.
-## Key Findings
-### Regional Dynamics
-* The analysis spotlighted fluctuating transaction prices, with the Northeast consistently emerging as a leader in average prices across numerous months, underlining the region's robust market appeal and consumer spending capacity.
-Sales Volume Insights
-* A remarkable surge in sales volume was observed in the Northeast, manifesting a towering market share. Notably, in September 2022, the Northeast recorded an astounding $15.98M in sales, substantially outperforming other regions and underscoring its critical market presence.
-### Brand Dominance
-* Chevrolet solidified its position as the preeminent brand, topping the transaction count charts for 14 months within the analysis period, a testament to its market dominance and consumer allure.
-Model Preferences 
-* Intriguingly, the analysis revealed that the top-selling model for each company was also the most economically priced within their lineup. This pattern highlights a significant correlation between sales popularity and affordability, underscoring the potency of value-driven consumer choices and strategic marketing.
+Sales totals alone do not explain why one market performs better than another. Leadership needs to know whether performance is driven by transaction volume, vehicle price, timing, or product mix before making inventory and promotional decisions.
+
+The analysis answers four questions:
+
+- Which dealer region generates the most revenue, and why?
+- Which days and months produce the most transactions?
+- Which manufacturers and models sell most frequently?
+- Are regional differences driven by volume or average selling price?
+
+## Dataset
+
+This project uses the committed `car_sales_data.csv` transaction file.
+
+| Measure | Value |
+|---|---:|
+| Analysis period | January 2022–December 2023 |
+| Transactions | 23,906 |
+| Total sales revenue | $671.5 million |
+| Manufacturers | 30 |
+| Models | 154 |
+| Dealer regions | 3 |
+
+Each row represents one vehicle sale and includes the sale date, manufacturer, model, vehicle attributes, sale price, dealer number, and dealer region.
+
+## Methodology
+
+1. Standardized date and sale-price data types.
+2. Checked the dataset for missing values and duplicate rows.
+3. Aggregated transactions and revenue by month, weekday, region, manufacturer, and model.
+4. Calculated average sale price to separate pricing from volume effects.
+5. Ranked manufacturers and manufacturer-model combinations by transaction count.
+6. Compared monthly performance and used a three-month moving average to show the broader sales trend.
+
+## Key findings
+
+- **The Northeast led because it sold more vehicles, not because vehicles were more expensive.** It produced **$263.3 million** from **9,387 transactions**, representing about **39.2%** of total revenue and transactions. Its average sale price was **$28,052**, nearly identical to the West and South.
+- **The West had the highest average sale price, but only slightly.** Its average was **$28,166**, compared with **$28,059** in the South and **$28,052** in the Northeast. The narrow range does not support a claim that one region had materially stronger spending power.
+- **2023 materially outperformed 2022.** Transactions increased **24.6%**, while revenue increased **23.6%**.
+- **December 2023 was the strongest month.** It generated **1,921 transactions** and **$54.3 million** in revenue.
+- **Tuesday was the strongest weekday.** It accounted for **4,425 transactions** and **$123.3 million** in revenue.
+- **Chevrolet led manufacturer volume.** It recorded **1,819 transactions** and **$47.7 million** in revenue. The highest-volume manufacturer-model combination was the **Mitsubishi Diamante** with **418 transactions**.
+
+## Regional sales comparison
+
+![Total car sales revenue by dealer region](images/revenue-by-region.png)
+
+| Dealer region | Transactions | Revenue | Average sale price |
+|---|---:|---:|---:|
+| Northeast | 9,387 | $263.3M | $28,052 |
+| West | 7,568 | $213.2M | $28,166 |
+| South | 6,951 | $195.0M | $28,059 |
+
+## Business recommendations
+
+- Use transaction volume, not average price, as the starting point for investigating the Northeast's lead.
+- Compare inventory availability, dealer coverage, and market size before reallocating budget based on regional totals.
+- Review the drivers of 2023 growth to determine whether the increase came from additional inventory, expanded distribution, or stronger demand.
+- Align inventory planning with manufacturer-model demand while protecting against overreliance on a single high-volume product.
+- Test weekday-specific promotions before treating Tuesday's historical lead as a repeatable behavioral pattern.
+
+## Technical implementation
+
+The notebook demonstrates:
+
+- data-type conversion and quality checks
+- `groupby()` and `pivot_table()` aggregations
+- monthly and weekday date features
+- rolling averages for trend analysis
+- regional revenue and transaction comparisons
+- manufacturer and model rankings
+- Matplotlib and Seaborn visualizations
+- business-friendly tabular output with `tabulate`
+
+## Repository structure
+
+```text
+Car Sales Analysis - 2026/
+├── README.md
+├── Jack Cournoyer Car Sales Analysis March 2026.ipynb
+├── data/
+│   └── car_sales_data.csv
+└── images/
+    └── revenue-by-region.png
+```
+
+## Run the analysis
+
+Open `Jack Cournoyer Car Sales Analysis March 2026.ipynb` from this project directory and run all cells in order. The notebook reads the committed CSV through the relative path `data/car_sales_data.csv`.
+
+Required Python packages:
+
+```text
+pandas
+numpy
+matplotlib
+seaborn
+tabulate
+```
+
+## Limitations
+
+- The original source and license for the committed dataset are not documented in the repository and should be confirmed before reuse.
+- Regional totals are not normalized for population, market size, inventory, or dealer capacity.
+- The analysis is descriptive and does not explain why sales increased or why a particular weekday performed best.
+- Manufacturer and model volume indicate transaction frequency, not profitability or market share.
