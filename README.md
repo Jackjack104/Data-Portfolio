@@ -4,9 +4,9 @@
 
 [View Resume](./Jack-Cournoyer-Resume.pdf) | [Download PDF](https://raw.githubusercontent.com/Jackjack104/Data-Portfolio/main/Jack-Cournoyer-Resume.pdf)
 
-I build reliable data systems and reporting that help sales teams make better decisions. My work covers the full analytics lifecycle: cleaning and linking data, defining business logic, developing analytical models, automating recurring processes, and translating results into clear recommendations.
+Senior data analyst focused on building reliable data systems and reporting that help sales teams make better decisions. Experience spans the full analytics lifecycle: cleaning and linking data, defining business logic, developing analytical models, automating recurring processes, and translating results into clear recommendations.
 
-I specialize in sales and revenue analytics, customer retention, CRM data quality, Power BI development, and operational process improvement. I am most effective when the problem requires both technical depth and an understanding of how data is created, maintained, and used by the business.
+Specializes in sales and revenue analytics, customer retention, CRM data quality, Power BI development, and operational process improvement. Best suited to problems that require both technical depth and an understanding of how data is created, maintained, and used by the business.
 
 ## Core capabilities
 
@@ -18,9 +18,9 @@ I specialize in sales and revenue analytics, customer retention, CRM data qualit
 
 ## AI-enabled analytics
 
-I am highly trained in incorporating AI into analytical, technical, and operational workflows. I use AI as an accelerator for structured problem-solving, not as an unchecked source of truth.
+Highly trained in incorporating AI into analytical, technical, and operational workflows. AI is used as an accelerator for structured problem-solving, with outputs validated rather than accepted as an unchecked source of truth.
 
-My AI-assisted work includes:
+AI-assisted work includes:
 
 - developing and refactoring Python, SQL, and DAX
 - profiling datasets and identifying potential anomalies
@@ -30,7 +30,7 @@ My AI-assisted work includes:
 - accelerating research, requirements analysis, and solution design
 - building human-in-the-loop workflows where outputs are reviewed against source data and business rules
 
-I pair AI with validation, version control, clear metric definitions, and business context so speed does not come at the expense of accuracy or governance.
+AI is paired with validation, version control, clear metric definitions, and business context so speed does not come at the expense of accuracy or governance.
 
 ## Technical toolkit
 
@@ -46,16 +46,18 @@ I pair AI with validation, version control, clear metric definitions, and busine
 
 ## Featured projects
 
-| Project | Business focus | Skills demonstrated |
-|---|---|---|
-| [Sales & CRM Analytics Pipeline](./Data%20Engineering%20Projects/Sales%20CRM%20Analytics%20Pipeline/) | Combines synthetic CRM and ERP data into tested customer and sales reporting tables | Python, PostgreSQL, dbt, Docker, data quality, dimensional modeling |
-| [Customer Retention & Cohort Analysis](./Data%20Projects%20-%20Using%20Python/Cohort%20Retention%20Analysis/) | Measures customer activity after acquisition and identifies where retention declines most sharply | Python, pandas, cohort modeling, lifecycle analytics, data storytelling |
-| [Website Feature Launch Performance Analysis](./Data%20Projects%20-%20Using%20Python/Website%20Feature%20Launch%20Sales%20Impact%20Analysis%20-%202026/) | Evaluates revenue, customer activity, ARPC, and AOV before and after a simulated feature launch | Python, KPI validation, pre/post analysis, causal reasoning |
-| [Car Sales Performance Analysis](./Data%20Projects%20-%20Using%20Python/Car%20Sales%20Analysis%20-%202026/) | Separates sales-volume, pricing, regional, manufacturer, and model performance | Python, pandas, aggregation, trend analysis, visualization |
-| [Sales Performance & Territory Analytics](./Data%20Projects%20-%20Using%20Power%20BI/Sales%20Performance%20%26%20Territory%20Analytics%20-%202026/) | Monitors YTD results, compares territory performance, and supports customer-level investigation | Power BI, DAX, star schema, time intelligence, sales analytics |
-| [Annual Product & Customer Retention Analytics](./Data%20Projects%20-%20Using%20Power%20BI/Annual%20Product%20%26%20Customer%20Retention%20Analytics%20-%202026/) | Compares customer retention, churn, profit, and product performance between selected years | Power BI, DAX, retention modeling, disconnected tables, KPI design |
+Each project shows how a business problem can be translated into reliable data, defensible metrics, and a decision-ready output.
 
-## How I approach analytics
+| Project | Business problem solved | Skills demonstrated |
+|---|---|---|
+| [Sales & CRM Analytics Pipeline](./Data%20Engineering%20Projects/Sales%20CRM%20Analytics%20Pipeline/) | Unifies fragmented CRM and ERP data into tested, reporting-ready customer and sales tables | Python, PostgreSQL, dbt, Docker, data quality, dimensional modeling |
+| [Customer Retention & Cohort Analysis](./Data%20Projects%20-%20Using%20Python/Cohort%20Retention%20Analysis/) | Shows when newly acquired customers stop returning so retention efforts can target the highest-risk lifecycle stages | Python, pandas, cohort modeling, lifecycle analytics, data storytelling |
+| [Website Feature Launch Performance Analysis](./Data%20Projects%20-%20Using%20Python/Website%20Feature%20Launch%20Sales%20Impact%20Analysis%20-%202026/) | Shows whether core KPIs changed after a feature launch while keeping observed shifts separate from unsupported causal claims | Python, KPI validation, pre/post analysis, causal reasoning |
+| [Car Sales Performance Analysis](./Data%20Projects%20-%20Using%20Python/Car%20Sales%20Analysis%20-%202026/) | Identifies which regions, manufacturers, and models drive results while separating transaction volume from average sale value | Python, pandas, aggregation, trend analysis, visualization |
+| [Sales Performance & Territory Analytics](./Data%20Projects%20-%20Using%20Power%20BI/Sales%20Performance%20%26%20Territory%20Analytics%20-%202026/) | Gives sales leaders one view of YTD results, territory differences, and customer-level performance | Power BI, DAX, star schema, time intelligence, sales analytics |
+| [Annual Product & Customer Retention Analytics](./Data%20Projects%20-%20Using%20Power%20BI/Annual%20Product%20%26%20Customer%20Retention%20Analytics%20-%202026/) | Reveals which customers and product categories are retained or lost and whether retention aligns with profit and order trends | Power BI, DAX, retention modeling, disconnected tables, KPI design |
+
+## Analytics approach
 
 1. Define the business question and metric logic before building the output.
 2. Validate the source data and document important assumptions.
