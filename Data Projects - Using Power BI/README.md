@@ -1,20 +1,21 @@
-# Power BI Reports Overview
+# Power BI Projects
 
-## Introduction
-Welcome to the Power BI folder of my GitHub repository. This directory is dedicated to showcasing my work on various Power BI reports and analyses. Here, you will find detailed PDF reviews of each report, offering a comprehensive look at the visualizations, data models, DAX measures, and insights that I've developed.
+These case studies demonstrate how I use Power BI, DAX, dimensional modeling, and report design to answer sales and customer-performance questions. Each project includes a static PDF so the work can be reviewed without a Power BI license.
 
-## Contents
-The Power BI folder contains PDF files, each representing a detailed review of individual Power BI reports. These documents provide a thorough walkthrough of the report elements, including:
+## Projects
 
-- Visualizations
-- Data modeling
-- Custom DAX measures
-- Interpretations and insights drawn from the data
+| Project | Business focus | Technical focus |
+|---|---|---|
+| [Sales Performance & Territory Analytics](./Sales%20Performance%20Power%20BI%20Report%20-%202026/) | YTD performance, territory comparison, and customer-level sales trends | Star schema, DAX, time intelligence, dynamic filtering, tooltips |
+| [Annual Product & Customer Retention](./Annual%20Product%20%26%20Customer%20Retention/) | Year-over-year customer and product retention | DAX table expressions, disconnected year selectors, retention and churn logic |
 
-## Accessibility
-One key advantage of this format is accessibility. By uploading PDF reviews, users without a Power BI license can easily view and understand the work involved. It also facilitates quick sharing and feedback from peers, stakeholders, or anyone interested in the data analysis process.
+## What these projects demonstrate
 
-## Contributing & Feedback
-Feedback and contributions to these reports are always welcome. If you have any suggestions or would like to collaborate on a project, please feel free to reach out.
+- Business-focused KPI design
+- Star-schema semantic modeling
+- Reusable DAX measures
+- Time-intelligence calculations
+- Interactive drill-down and filtering
+- Clear reporting for technical and non-technical audiences
 
-Thank you for exploring my Power BI projects!
+The datasets are simulated and are included for portfolio demonstration. The PDFs and screenshots are static representations of interactive Power BI reports.
