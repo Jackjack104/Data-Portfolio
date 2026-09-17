@@ -53,7 +53,7 @@ I pair AI with validation, version control, clear metric definitions, and busine
 | [Website Feature Launch Performance Analysis](./Data%20Projects%20-%20Using%20Python/Website%20Feature%20Launch%20Sales%20Impact%20Analysis%20-%202026/) | Evaluates revenue, customer activity, ARPC, and AOV before and after a simulated feature launch | Python, KPI validation, pre/post analysis, causal reasoning |
 | [Car Sales Performance Analysis](./Data%20Projects%20-%20Using%20Python/Car%20Sales%20Analysis%20-%202026/) | Separates sales-volume, pricing, regional, manufacturer, and model performance | Python, pandas, aggregation, trend analysis, visualization |
 | [Sales Performance & Territory Analytics](./Data%20Projects%20-%20Using%20Power%20BI/Sales%20Performance%20Power%20BI%20Report%20-%202026/) | Monitors YTD results, compares territory performance, and supports customer-level investigation | Power BI, DAX, star schema, time intelligence, sales analytics |
-| [Annual Product & Customer Retention Report](./Data%20Projects%20-%20Using%20Power%20BI/Annual%20Product%20%26%20Customer%20Retention/Annual%20Retention%20Product%20Analysis.pdf) | Examines annual product performance and customer retention | Power BI, retention reporting, KPI design, data visualization |
+| [Annual Product & Customer Retention Analytics](./Data%20Projects%20-%20Using%20Power%20BI/Annual%20Product%20%26%20Customer%20Retention/) | Compares customer retention, churn, profit, and product performance between selected years | Power BI, DAX, retention modeling, disconnected tables, KPI design |
 
 ## How I approach analytics
 
