@@ -2,7 +2,7 @@
 
 **Power BI | DAX | Star Schema | Sales Analytics | Time Intelligence**
 
-[View the full report](./Sales%20Territory%20Power%20BI%20Analysis.pdf)
+[View the full report](./Sales%20Performance%20%26%20Territory%20Analytics%20-%202026.pdf)
 
 ![Sales performance dashboard by territory](./images/territory-performance-dashboard.png)
 
@@ -163,9 +163,9 @@ COALESCE(
 ## Project files
 
 ```text
-Sales Performance Power BI Report - 2026/
+Sales Performance & Territory Analytics - 2026/
 ├── README.md
-├── Sales Territory Power BI Analysis.pdf
+├── Sales Performance & Territory Analytics - 2026.pdf
 └── images/
     ├── customer-analysis-dashboard.png
     ├── data-model.png

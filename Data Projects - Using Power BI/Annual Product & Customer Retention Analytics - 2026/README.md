@@ -2,7 +2,7 @@
 
 **Power BI | DAX | Customer Retention | Product Analysis | Semantic Modeling**
 
-[View the full report](./Annual%20Retention%20Product%20Analysis.pdf)
+[View the full report](./Annual%20Product%20%26%20Customer%20Retention%20Analytics%20-%202026.pdf)
 
 ![Annual product and customer retention dashboard](./images/annual-retention-dashboard.png)
 
@@ -174,9 +174,9 @@ The report supports several follow-up actions:
 ## Project files
 
 ```text
-Annual Product & Customer Retention/
+Annual Product & Customer Retention Analytics - 2026/
 ├── README.md
-├── Annual Retention Product Analysis.pdf
+├── Annual Product & Customer Retention Analytics - 2026.pdf
 └── images/
     ├── annual-retention-dashboard.png
     └── data-model.png
