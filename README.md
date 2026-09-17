@@ -1,8 +1,8 @@
 # Jack Cournoyer
 
-**Senior Data Analyst | Sales Analytics | CRM Data Architecture | Business Intelligence | AI-Enabled Workflows**
+**Senior Data Analyst | Sales Analytics | CRM Data Architecture | Business Intelligence**
 
-[View Resume](./Jack-Cournoyer-Resume.pdf) | [Download PDF](https://raw.githubusercontent.com/Jackjack104/Data-Portfolio/main/Jack-Cournoyer-Resume.pdf)
+[View Resume](./Jack-Cournoyer-Resume.pdf) | [Download PDF](https://raw.githubusercontent.com/Jackjack104/Data-Portfolio/main/Jack-Cournoyer-Resume.pdf) | [LinkedIn](https://www.linkedin.com/in/john-cournoyer/)
 
 Senior data analyst focused on building reliable data systems and reporting that help sales teams make better decisions. Experience spans the full analytics lifecycle: cleaning and linking data, defining business logic, developing analytical models, automating recurring processes, and translating results into clear recommendations.
 
