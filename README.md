@@ -47,7 +47,7 @@ Each project shows how a business problem can be translated into reliable data, 
 | CRM and business systems | HubSpot, Oracle NetSuite, APIs, data synchronization |
 | Development | Visual Studio Code, Git, Jupyter, reusable functions, automated validation |
 | AI workflows | Prompt design, AI-assisted development, agentic workflows, evaluation, human review |
-| Process improvement | Lean Six Sigma, Agile, Scrum, process mapping, root-cause analysis |
+| Process improvement | Lean Six Sigma, process mapping, root-cause analysis |
 
 ## AI-enabled analytics
 
