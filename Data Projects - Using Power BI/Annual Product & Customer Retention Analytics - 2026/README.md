@@ -60,6 +60,12 @@ The model uses a fact-centered design with a snowflaked product hierarchy and di
 
 Disconnected year tables let users choose two independent comparison periods. DAX then applies those selections to the order fact table rather than relying on a single calendar filter context.
 
+## Comparison and observation window
+
+Year 1 and Year 2 are user-selected calendar years, and Year 2 must be later than Year 1. The selectors allow nonconsecutive years, so these are selected-period comparisons; “YoY” in the existing measure names describes a year-over-year comparison only when the years are consecutive. The comparison covers transactions recorded in the selected years and available in the report data, not a customer's complete lifetime. A customer absent from the Year 2 repeat set may have purchased in an intervening year or may return later. “Churn” here means not observed with a positive-sales transaction in Year 2, not confirmed permanent loss.
+
+The shown DAX identifies a customer if at least one fact row has `Sales Revenue > 0` in each selected year; it does not establish positive net sales after returns or adjustments. Product filters and the report's data coverage affect the selected customer sets.
+
 ## Metric definitions
 
 | Metric | Definition |
@@ -68,10 +74,10 @@ Disconnected year tables let users choose two independent comparison periods. DA
 | Repeat Customers | Customers with positive sales in both selected years |
 | Customers With No Sales in Year 2 | Year 1 customers who do not appear in the repeat-customer set |
 | Retention Rate | Repeat Customers divided by Year 1 Customers |
-| Churn Rate | One minus the Retention Rate |
+| Churn Rate | One minus the Retention Rate; the share not observed in the repeat set in selected Year 2 |
 | Year 1 / Year 2 Profit | Profit generated in each selected year |
-| YoY Profit Delta | Year 2 Profit minus Year 1 Profit |
-| YoY Profit Change | Profit delta divided by Year 1 Profit |
+| YoY Profit Delta | Year 2 Profit minus Year 1 Profit; truly year-over-year only for consecutive selections |
+| YoY Profit Change | Profit delta divided by Year 1 Profit; truly year-over-year only for consecutive selections |
 
 ## Selected findings from the report snapshot
 
