@@ -7,10 +7,8 @@ on:
       - "index.html"
       - "assets/**"
       - ".nojekyll"
-      - "Data Engineering Projects/**"
-      - "Data Projects - Using Python/**"
-      - "Data Projects - Using Power BI/**"
-      - "Jack-Cournoyer-Resume.pdf"
+      - "projects/**"
+      - "resume/**"
       - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
 
